@@ -32,12 +32,13 @@ g++ -o main main.cpp <other_files>.cpp
 
 ## Usage
 The program reads input from [cities.txt](optimal-transport-network/cmake-build-debug/cities.txt), where each line represents a city with its X and Y coordinates:
-*cities.txt
+```cities.txt
 4 20  
 0 0  
 40 30  
 30 30  
-10 10*
+10 10
+```
 
 To modify the dataset, edit [cities.txt](optimal-transport-network/cmake-build-debug/cities.txt), ensuring the correct format is maintained.
 
